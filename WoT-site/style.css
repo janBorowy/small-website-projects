@@ -1,0 +1,159 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(136, 75, 0);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+*, *:after, *:before {
+box-sizing: inherit;
+}
+
+/* header */
+header {
+    background-image: url(images/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+#logo {
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: flex-start;
+}
+
+#logo, #logo:visited, #logo:hover, #logo:active{
+    color: #cf1313;
+}
+
+.banner {
+    position: sticky;
+    top: 0;
+}
+
+header a img {
+    height: 20vh;
+    margin-bottom: 50px;
+}
+
+header a h1 {
+    white-space: nowrap;
+    font: 10vh 'Calligraffitti', serif;
+}
+
+header nav {
+    background-color: rgba(16, 18, 163, 0.8);
+    height: 8vh;
+}
+
+/* navigation */
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+}
+
+header nav ul a {
+    border: 5px solid #cf1313;
+    border-radius: 100px;
+    font: 2em Georgia, serif;
+    flex: 1 1 0%;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: nowrap;
+    margin: 7.5px 20px;
+    padding: 0 20px;
+}
+
+header nav ul a li {
+    color: #cf1313;
+}
+
+/* End of header section */
+
+/* anchors */
+
+a {
+    text-decoration: none;
+}
+
+/* main */ 
+main {
+    background-color: #cf1313;
+    border: 1px solid gray;
+    border-radius: 3rem;
+    margin: 2em 20vw;
+}
+
+/* article */
+article {
+    font-size: 1.25em;
+    margin: 2em 4em;
+}
+
+article h2 {
+    font: 3rem 'Calligraffitti', serif;
+    border-bottom: 2px solid black;
+    width: fit-content;
+}
+
+article p {
+    font-size: 1.5rem;
+}
+
+article p img {
+    float: right;
+    margin-bottom: 2em;
+}
+
+.citation {
+    text-align: right;
+}
+
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(75, 41, 0);
+    font-size: 1.25em;
+    align-items: center;
+}
+
+.content {
+    line-height: 0.5em;
+}
+
+.content ul {
+    list-style-type: none;
+    line-height: 1em;
+    padding: 0;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+.contact ul li img {
+    height: 5em;
+}
+
+/* hr */
+
+hr {
+    border: 1px solid black;
+}
