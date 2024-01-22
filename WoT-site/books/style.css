@@ -23,3 +23,27 @@
 #topic {
     color: yellowgreen;
 }
+
+.book-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.book-item{
+    margin: 20px;
+}
+
+.book-item a, .book-item a:visited, .book-item a:hover, .book-item a:active{
+    font-family: 'Calligraffitti', serif;
+    color: black;
+}
+
+.book-item a:hover {
+    color: green;
+}
+
+.container-title{
+    font: 3rem 'Calligraffitti', serif;
+    text-align: center;
+    border-bottom: 3px dashed black;
+}

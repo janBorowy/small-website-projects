@@ -7,10 +7,6 @@ footer {
     margin-top: auto;
 }
 
-.content {
-    line-height: 0.5em;
-}
-
 .content ul {
     list-style-type: none;
     line-height: 1em;
