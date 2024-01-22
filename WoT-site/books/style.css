@@ -47,3 +47,8 @@
     text-align: center;
     border-bottom: 3px dashed black;
 }
+
+main {
+    margin-left: 20vw;
+    margin-right: 20vw;
+}

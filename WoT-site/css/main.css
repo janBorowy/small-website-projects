@@ -3,7 +3,7 @@ main {
     background-color: #cf1313;
     border: 1px solid gray;
     border-radius: 3rem;
-    margin: 2em 20vw;
+    margin: 2em 10vw;
 }
 
 main hr {
@@ -29,6 +29,7 @@ main article p {
 main article p img {
     float: right;
     margin-bottom: 2em;
+    margin-left: 2em;
 }
 
 .citation {
