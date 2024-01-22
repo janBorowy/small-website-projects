@@ -1,4 +1,7 @@
-@import url(css/all.css);
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
 
 html {
     box-sizing: border-box;
@@ -14,5 +17,5 @@ body {
 }
 
 *, *:after, *:before {
-box-sizing: inherit;
+    box-sizing: inherit;
 }

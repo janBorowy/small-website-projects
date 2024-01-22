@@ -1,0 +1,26 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(75, 41, 0);
+    font-size: 1.25em;
+    align-items: center;
+    margin-top: auto;
+}
+
+.content {
+    line-height: 0.5em;
+}
+
+.content ul {
+    list-style-type: none;
+    line-height: 1em;
+    padding: 0;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+.contact ul li img {
+    height: 5em;
+}

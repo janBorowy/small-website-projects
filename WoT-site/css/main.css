@@ -1,0 +1,36 @@
+/* main */ 
+main {
+    background-color: #cf1313;
+    border: 1px solid gray;
+    border-radius: 3rem;
+    margin: 2em 20vw;
+}
+
+main hr {
+    border: 1px solid black;
+}
+
+/* article */
+main article {
+    font-size: 1.25em;
+    margin: 2em 4em;
+}
+
+main article h2 {
+    font: 3rem 'Calligraffitti', serif;
+    border-bottom: 2px solid black;
+    width: fit-content;
+}
+
+main article p {
+    font-size: 1.5rem;
+}
+
+main article p img {
+    float: right;
+    margin-bottom: 2em;
+}
+
+.citation {
+    text-align: right;
+}

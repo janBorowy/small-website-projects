@@ -1,0 +1,66 @@
+header {
+    background-image: url(../images/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: grid;
+    grid-template-rows: min-content 20vh auto min-content;
+    grid-template-columns: repeat(3, auto);
+}
+
+#logo {
+    display: flex;
+    flex-flow: row;
+    grid-area: 2 / 1 / 3 / 4;
+}
+
+#logo, #logo:visited, #logo:hover, #logo:active{
+    color: #cf1313;
+}
+
+#topic {
+    grid-area: 4 / 1 / 5 / -1;
+    color: #cf1313;
+    margin-left: 1vw;
+    font: 7.5vh 'Calligraffitti', serif;
+}
+
+header a h1 {
+    font: 10vh 'Calligraffitti', serif;
+}
+
+header nav {
+    position: sticky;
+    top: 0;
+    bottom: 12vw;
+
+    grid-area: 1 / 1 / 2 / 4;
+    background-color: rgba(16, 18, 163, 0.8);
+}
+
+header nav ul{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+header nav ul a {
+    border: 5px solid #cf1313;
+    border-radius: 100px;
+    font: 2em Georgia, serif;
+    text-transform: uppercase;
+    margin: 0 20px;
+    padding: 0 20px;
+}
+
+header nav ul a li {
+    color: #cf1313;
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+}

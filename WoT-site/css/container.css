@@ -1,0 +1,17 @@
+#container {
+    display: grid;
+    grid-template-rows: [banner-start] 100vh [banner-end main-start] auto [main-end footer-start] auto;
+    grid-template-columns: [left-margin] 10vw [main] auto [right-margin] 10vw;
+}
+
+#banner {
+    grid-area: 1 / 1 / 2 / 4;
+}
+
+#main-content {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+#footer {
+    grid-area: 3 / 1 / 4 / 4;
+}
