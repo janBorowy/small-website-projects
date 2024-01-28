@@ -1,0 +1,5 @@
+@import url(../css/all.css);
+
+#banner {
+    background-image: url(images/banner-characters.jpg);
+}

@@ -6,14 +6,27 @@ header {
     background-attachment: fixed;
 
     display: grid;
-    grid-template-rows: min-content 20vh auto min-content;
+    grid-template-rows: min-content 25vh auto min-content;
     grid-template-columns: repeat(3, auto);
 }
 
 #logo {
+    margin-right: auto;
+    grid-area: 2 / 1 / 3 / -1;
     display: flex;
-    flex-flow: row;
-    grid-area: 2 / 1 / 3 / 4;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    height: 25vh;
+}
+
+#title {
+    margin-right: auto;
+    border: 5px dashed black;
+    border-radius: 50px;
+    background-clip: padding-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 2em;
+    margin-left: 1em;
 }
 
 #logo, #logo:visited, #logo:hover, #logo:active{

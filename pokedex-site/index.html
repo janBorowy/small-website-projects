@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Pokedex</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="src/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="logo-container">
+            <img class="logo" src="resource/320px-logo.png"/>
+            <h1>Pokedex</h1>
+        </div>
+        <form name="searchForm" id="search-bar">
+            <input type="text" value="Charizard" name="searchPhrase"/>
+            <button type="button" onclick="submitSearch(this.form)">search</button>
+        </form>
+    </header>
+    <main hidden>
+        <article hidden id="pokemon-info">
+            <h2 class="headline"></h2>
+            <img class="avatar"></img>
+            <div class="stats-container">
+                <ul class="stats-list">
+                </ul>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <p>I use <a href="https://pokeapi.co/">PokeApi</a> to support data for this site.</p>
+    </footer>
+</body>
+</html>
