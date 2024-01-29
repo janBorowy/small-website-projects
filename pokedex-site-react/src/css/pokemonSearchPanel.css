@@ -1,0 +1,9 @@
+.pokemon-search-container {
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.pokemon-search-container button {
+    margin-left: 1em;
+}
