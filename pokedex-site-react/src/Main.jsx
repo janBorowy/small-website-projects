@@ -1,18 +1,13 @@
-import PokemonSearchPanel from "./PokemonSearchPanel";
-import PokemonDisplayPanel from "./PokemonDisplayPanel";
-
+import { useState } from 'react';
 import './css/main.css'
 
-function Main(props) {
+import PokemonSearchPanel from './PokemonSearchPanel';
 
+function Main(props) {
     return (
         <main>
             <article>
-                <PokemonSearchPanel />
-                <PokemonDisplayPanel pokemon={{
-                    name: "charizard",
-                    avatar: "https://przemysl.pl/download//3651/jan_pawel_ii.jpeg"
-                }}/>
+                <PokemonSearchPanel/>
             </article>
         </main>
     );

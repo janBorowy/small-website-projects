@@ -1,0 +1,30 @@
+.pokemon-search-list {
+    list-style: none;
+    padding: 0.2em 0.5em;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.pokemon-search-list li {
+    display: flex;
+    align-items: center;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin-top: 0.2em;
+    padding-left: 1em;
+    background-color: silver;
+}
+
+.pokemon-search-list li:hover {
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
+}
+
+.pokemon-search-list li img{
+    height: 5em;
+}
+
+.pokemon-search-list li p{
+    margin-left: 1em;
+    font-size: 1.5rem;
+}
