@@ -2,7 +2,7 @@
 
 .pokemon-search-panel-container {
     display: grid;
-    grid-template-rows: min-content auto auto auto;
+    grid-template-rows: min-content auto auto;
     grid-template-columns: 30vw auto;
 }
 
@@ -15,15 +15,10 @@
     margin-top: 0.5em;
 }
 
-.search-bar button {
-    margin-left: 0.5em;
-}
-
 .search-bar input {
     border: 2px solid gray;
     border-radius: 4px;
     background-color: pink;
-    flex: auto;
 }
 
 /* pokemon list container */
@@ -35,4 +30,26 @@
 
 .pokemon-info-window-container {
     grid-area: 1 / 2 / 3 / 3;
+}
+
+.pokemon-search-page-buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.pokemon-search-page-buttons button {
+    background-color: transparent;
+    border: none;
+    margin: 0 0.5em;
+}
+
+.pokemon-search-page-buttons button:hover {
+    cursor: pointer;
+}
+
+.pokemon-search-page-buttons img {
+    width: 30px;
 }

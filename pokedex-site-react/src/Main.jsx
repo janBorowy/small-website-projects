@@ -7,7 +7,7 @@ function Main(props) {
     return (
         <main>
             <article>
-                <PokemonSearchPanel/>
+                <PokemonSearchPanel pokemonPerPage={8}/>
             </article>
         </main>
     );
