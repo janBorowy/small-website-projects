@@ -3,7 +3,7 @@
 .pokemon-search-panel-container {
     display: grid;
     grid-template-rows: min-content auto auto;
-    grid-template-columns: 30vw auto;
+    grid-template-columns: 30% auto;
 }
 
 /* search bar */

@@ -1,9 +1,5 @@
 body {
     background-color: rgb(255, 107, 107);
     margin: 0;
-    display: grid;
-    grid-template-rows: 20vh auto 20vh;
-    grid-template-columns: repeat(3, 100vw);
-
     font-family: sans-serif;
 }
